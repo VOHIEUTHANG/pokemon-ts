@@ -1,8 +1,12 @@
 import React from "react";
+import Poke from "./Pokemon";
 import "./App.css";
-
-function App() {
-  return <div className="App"></div>;
-}
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <Poke />
+    </div>
+  );
+};
 
 export default App;
